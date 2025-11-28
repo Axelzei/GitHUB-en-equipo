@@ -3,8 +3,9 @@ using namespace std;
 
 int main(){
 
-    double y, z, x, t;
+    double y, z, x, rez;
     cin>>x>>y>>z;
-    t=(pow(2*y+z,2.8)-z)/(x+y-(x/z));
-    cout<<t<<endl;
-}
+    rez=(pow(2*y+z,2.8)-z)/(x+y-(x/z));
+    cout<<rez<<endl;
+    return 0;
+};
